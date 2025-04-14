@@ -2,5 +2,16 @@
   a class has data or attributes and functions(methods) in it.
       > code walkthough
       > attributes called itself at the time when an object initialized but  methods are called manually
+
 2. why python is called oop ?:
+      everything in python is an object ex. data structures, data dypes, etc
+
+3. adv of oops:
+      > you can create your own data types
+      > code reusability
+      > debugging
+      > easy to colab
+
+      
+     
   
