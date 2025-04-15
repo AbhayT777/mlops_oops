@@ -2,7 +2,8 @@
 class Employee:
     # __init__ is a special method/magic method/dunder method , also called as constructor
     def __init__(self):
-        print("atributes are called by itself when an object is created")
+        # print("atributes are called by itself when an object is created")
+        print(id(self))
         self.id = 123
         self.sal = 500000
         self.design = "sde"
@@ -12,6 +13,12 @@ class Employee:
         print("methods are called manually")
         print("employee have to go "+ dest)
 
-sam = Employee() #creating an object
-print(sam.id)
-sam.travel("pune") #calling the method
+user = Employee() #creating an object
+print(id(user))
+# sam.travel("pune") #calling the method
+user.name = "akash"
+print(user.name)
+
+
+
+

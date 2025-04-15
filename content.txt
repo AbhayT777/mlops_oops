@@ -12,6 +12,28 @@
       > debugging
       > easy to colab
 
-      
+4. end to end project done(chatbook)
+
+5. some concepts:
+      > methods vs functions
+      > self : gangadhar(object) hi saktimaan(self) hai ,  print id(object) and id(self) , will give same result.
+      > magic method/ dunder method , ex  __init__
+      > you can create atribute outside the class as well. how : objectname.attribute name
+      > encapsulation :  in pyhton, you can not hide your attributes and methods as you do in other languages like java.
+                         
+      > getter and setter
+      > static method
+
+6. inheritance:
+      > inheritance code example
+      > why is it neened? (code reusability, parent has no accees to child class)
+      > what get inherited ? : constructors, public atributes and methods.
+      > constructor overloading and method overloading
+      > super key uses (can be use only inside class), if child class have its init method, then it can not use init of parent, but 
+      by using super, it can use parents init also.
+      > types: single level inhertitance, multilevel, hierechical, multiple(diomond), hybrid
+
+
+
      
   
